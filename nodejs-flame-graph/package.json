@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-flame-graph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --perf-basic-prof-only-functions app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "console": "^0.7.2",
+    "express": "^4.17.1",
+    "fast-levenshtein": "^3.0.0"
+  }
+}
